@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url(img/girl_tech.jpg) no-repeat center center fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.logo{
+    padding-left: 1em;
+}
+.nav li{
+    list-style: none;
+    display: inline;
+}
+.nav li a{
+    text-decoration: none;
+    color: #E1F5FE;
+
+}
+.nav{
+    display: inline;
+    margin-top: 1em;
+}
+.nav .right  li{
+    float: left;
+    padding: 1em;
+    
+
+}
+.nav .right{
+    margin-left: 7em;
+
+}
+.nav .logo {
+    float: left;
+    margin-top: 1em;
+}
+a {
+    display: block;
+    padding: 1px;
+}
+.nav .right button{
+    margin-left: 1em;
+    padding: 1em;
+    width: 22em;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: white;
+    font-weight: 515px;
+    letter-spacing: 1px;
+}
+.nav .right button:hover{
+    color: #DD0004;
+}
+.home .welcome{
+    padding-top: 12em;
+}
+.home  p{
+    margin-left: 2em;
+}
+.home .strong{
+    margin-left: 1em;
+    font-weight: bolder;
+    font-size: 3.7em;
+
+}
+.home  button{
+    margin-left: 2em;
+    background-color: #DD0004;
+    width: 10em;
+    height: 3.5em;
+    margin-bottom: 2em;
+    border: 1px #DD0004;
+}
+.home{
+    color: white;
+}
+.home button a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
